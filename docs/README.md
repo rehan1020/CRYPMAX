@@ -9,7 +9,7 @@ A clean, structured single-user terminal-only cryptocurrency trading bot.
 - Environment-based configuration
 - No user input required during runtime (except for initial investment amount)
 - Fully automated trading
-
+- Bitget Exchange Compatible only
 ## Project Structure
 
 ```
