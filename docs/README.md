@@ -29,6 +29,7 @@ Crympax-Personal/
 For a detailed explanation of all files in each directory, see [CODEBASE_FILE_STRUCTURE.md](CODEBASE_FILE_STRUCTURE.md).
 
 ## Setup
+Note: Download the whole project as a zip, then extract the all folders from the zip to start.
 
 1. Install dependencies:
    ```bash
