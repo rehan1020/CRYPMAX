@@ -1,0 +1,31 @@
+[project]
+name = "cryptopulse-personal"
+version = "1.0.0"
+description = "A clean, structured single-user terminal-only cryptocurrency trading bot"
+authors = [
+    {name = "Developer", email = "developer@example.com"},
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "ccxt>=4.1.63",
+    "colorama>=0.4.6",
+    "python-dotenv>=1.0.0",
+    "pandas>=2.3.2",
+    "numpy>=2.3.2",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.4.3",
+]
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
