@@ -46,7 +46,7 @@ For a detailed explanation of all files in each directory, see [CODEBASE_FILE_ST
 
 Run the personal trading bot:
 ```bash
-python main.py
+python advanced_main.py
 ```
 
 On first run, you'll be prompted to enter your investment amount in USDT (if implemented in your version).
