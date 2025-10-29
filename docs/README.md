@@ -75,3 +75,6 @@ Comprehensive documentation is available in the `docs/` folder:
 - python-dotenv
 - pandas
 - numpy
+
+## Disclaimer
+This is a prototype, it will be improved in feature and has been made for testing purposes only, CRYPMAX team is not responsible for any loss that occurs during the usage of this bot or beyond.
